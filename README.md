@@ -1,18 +1,20 @@
+## Project Description
 
-This project recreates my earlier 3D shark model (originally built in OpenGL) using Unity, reproducing the camera movement, lighting, and texturing of the original artifact.
-The previous artifact is located in a previous repository - https://github.com/ketsp8ce/3D-shark-model-openGL
- 
+This project recreates my earlier 3D shark model (originally developed in OpenGL) using Unity. The goal was to reproduce the original artifact’s camera movement, lighting, and texturing in a modern engine.
+The original version of this artifact can be found here:
+https://github.com/ketsp8ce/3D-shark-model-openGL
 
-    Briefly describe the artifact. What is it? When was it created?
-    - My original artifact was the final product of a 3D modeling class (cs330), whereapoun I created a 3D model of my frilled shark plushie using openGL. 
-    Justify the inclusion of the artifact in your ePortfolio. Why did you select this item? What specific components of the artifact showcase your skills and abilities in algorithms and data structure? How was the artifact improved?
-    I chose this artifact because of its alignment to the topic of data structures and algorithms. 3 dimensional modeling in openGL nessesiates the instantiation of a vector space, and the subsequent creation of vector based 3D objects. This required real-time understanding of an application of linear algebra. The ceration of the original artifact gave me an oppurtunity to apply my linear alebra skills in real time for this reason. In Unity, the same underlying concepts apply such as shaders and mesh objects, but the user operates with these concepts at a much higher level of abstraction, with the option to complete works using only the GUI. For this reason, Unity has an easier learning curve. I am glad I had the oppurtunity to learn openGL prior to Unity, but since Unity was easier to use, I was able to ,make a better final product in Unity. 
-    
-    Did you meet the course outcomes you planned to meet with this enhancement in Module One? Do you have any updates to your outcome-coverage plans?
-    In module 1, the enhancment plan for this artifact's enhancement, I said;
-    "I believe my proposed project enhancement aligns with the following course outcome: 
+# Briefly describe the artifact. What is it? When was it created?
+My original artifact was the final product of a 3D modeling class (cs330), whereupon I created a 3D model of my frilled shark plushie using openGL. 
 
------'Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.'"
+# Justify the inclusion of the artifact in your ePortfolio. Why did you select this item? What specific components of the artifact showcase your skills and abilities in algorithms and data structure? How was the artifact improved?
+I chose this artifact because of its alignment to the topic of data structures and algorithms. 3-dimensional modeling in OpenGL necessitates the instantiation of a vector space and the subsequent creation of vector based 3D objects. This required real-time understanding of an application of linear algebra. The creation of the original artifact gave me an opportunity to apply my linear algebra skills in real time for this reason. In Unity, the same underlying concepts apply, such as shaders and mesh objects, but the user operates with these concepts at a much higher level of abstraction, with the option to complete works using only the GUI. For this reason, Unity has an easier learning curve. I am glad I had the opportunity to learn openGL prior to Unity, but since Unity was easier to use, I was able to make a better final product in Unity. 
 
+# Did you meet the course outcomes you planned to meet with this enhancement in Module One? Do you have any updates to your outcome-coverage plans?
+In module 1, the enhancement plan for this artifact's enhancement, I proposed that this project aligned with the following course outcome:
+*"Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices."*
+I had never used Unity before this assignment, and I had assumed that scripting in C# was a necessary part of the process. What I discovered is that scripting in C# was entirely optional for the purpose of constructing a 3D still model. Scripting would have been a factor if I wanted to customize to an advanced degree, but for the purposes of my project it was possible to get by only using the Unity GUI. I think despite this I was still aligned with the above course outcome. Algorithms and data structures are present in the underlying architecture of Unity. However, it is possible to interact with the application without being aware of these things. For this reason, I am glad that I learned openGL prior to learning Unity. As I created my project, I was aware of the same data structure and algorithmic principles that had guided my creation of the original artifact using openGL. 
 
-    Reflect on the process of enhancing and modifying the artifact. What did you learn as you were creating it and improving it? What challenges did you face?
+# Reflect on the process of enhancing and modifying the artifact. What did you learn as you were creating it and improving it? What challenges did you face?
+In openGL, I had a library of predefined shapes and RGB colors to work with. The same was true for lighting. I imported my own textures. There was no GUI to move around and rearrange the shapes, and I could only do this by modifying location and scale parameter numbers. In Unity, I had the option to work the same way, but I could also use the GUI to move around and reshape things. I could also use keyboard shortcuts to clone shapes and quickly locate them. This made things much easier for similar shapes, like matching fins on either side or a set of gills. I am glad that programs like Unity exist, because I believe it is more accessible to the average person who wishes to create something but does not know programming. My biggest challenge was with the actual fine-motor skills required to move things precisely, as I have learning disabilities that make this a challenge. In the future, as I gain more proficiency and knowledge of the Unity interface, I will likely use a mix of parameter editing and clicking/dragging.
+
